@@ -47,7 +47,7 @@ After you are successfully logged in to your account, you will see your
 ## Bungie API Key
 
 !!! info ""
-    Required by `destiny2` command. *Not yet implemented.*
+    Required by `destiny2` command.
 
 Go to [Bungie Applications](https://www.bungie.net/en/Application).
 
