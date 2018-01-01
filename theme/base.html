@@ -2,9 +2,8 @@
 {% set feature = config.theme.feature %}
 {% set palette = config.theme.palette %}
 {% set font = config.theme.font %}
+
 <!DOCTYPE html>
-
-
 <html lang="{{ lang.t('language') }}" class="no-js" prefix="og: http://ogp.me/ns#">
   <head>
     {% block site_meta %}
@@ -26,7 +25,7 @@
       {% if page.canonical_url %}
         <link rel="canonical" href="{{ page.canonical_url }}">
       {% endif %}
-      {% if page and page.meta.author %}
+      {% if page and page.meta and page.meta.author %}
         <meta name="author" content="{{ page.meta.author | first }}">
       {% elif config.site_author %}
         <meta name="author" content="{{ config.site_author }}">
@@ -43,10 +42,9 @@
         <meta name="lang:{{ key }}" content="{{ lang.t(key) }}">
       {% endfor %}
       <link rel="shortcut icon" href="{{ base_url }}/{{ config.theme.favicon }}">
-      <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-2.0.4">
     {% endblock %}
     {% block htmltitle %}
-      {% if page and page.meta.title %}
+      {% if page and page.meta and page.meta.title %}
         <title>{{ page.meta.title }}</title>
         <meta property="og:title" content="{{ page.meta.title }}" />
       {% elif page and page.title and not page.is_homepage %}
@@ -58,13 +56,13 @@
       {% endif %}
     {% endblock %}
     {% block styles %}
-      <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/application-709eec9410.css">
+      <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/application.6525f7f6.css">
       {% if palette.primary or palette.accent %}
-        <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/application-23f75ab9c7.palette.css">
+        <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/application-palette.792431c1.css">
       {% endif %}
     {% endblock %}
     {% block libs %}
-      <script src="{{ base_url }}/assets/javascripts/modernizr-e826f8942a.js"></script>
+      <script src="{{ base_url }}/assets/javascripts/modernizr.1aa3b519.js"></script>
     {% endblock %}
     {% block fonts %}
       {% if font != false %}
@@ -98,11 +96,11 @@
       <defs>
         {% set platform = config.extra.repo_icon or config.repo_url %}
         {% if "github" in platform %}
-          {% include "assets/images/icons/github-1da075986e.svg" %}
+          {% include "assets/images/icons/github.a4034fb1.svg" %}
         {% elif "gitlab" in platform %}
-          {% include "assets/images/icons/gitlab-5ad3f9f9e5.svg" %}
+          {% include "assets/images/icons/gitlab.d80e5efc.svg" %}
         {% elif "bitbucket" in platform %}
-          {% include "assets/images/icons/bitbucket-670608a71a.svg" %}
+          {% include "assets/images/icons/bitbucket.4ebea66e.svg" %}
         {% endif %}
       </defs>
     </svg>
@@ -113,6 +111,11 @@
       {% include "partials/header.html" %}
     {% endblock %}
     <div class="md-container">
+      {% block hero %}
+        {% if page and page.meta and page.meta.hero %}
+          {% include "partials/hero.html" with context %}
+        {% endif %}
+      {% endblock %}
       {% if feature.tabs %}
         {% include "partials/tabs.html" %}
       {% endif %}
@@ -174,7 +177,7 @@
       {% endblock %}
     </div>
     {% block scripts %}
-      <script src="{{ base_url }}/assets/javascripts/application-8e4952e681.js"></script>
+      <script src="{{ base_url }}/assets/javascripts/application.206c856d.js"></script>
       {% if lang.t("search.language") != "en" %}
         {% set languages = lang.t("search.language").split(",") %}
         {% if languages | length and languages[0] != "" %}
@@ -200,7 +203,7 @@
     {% endblock %}
     {% block analytics %}
       {% if config.google_analytics %}
-      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","{{ config.google_analytics[0] }}","{{ config.google_analytics[1] }}"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+        {% include "partials/integrations/analytics.html" %}
       {% endif %}
     {% endblock %}
   </body>
