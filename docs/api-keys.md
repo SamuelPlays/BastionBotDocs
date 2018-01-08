@@ -93,6 +93,22 @@ Fill up the given form with your name, email, website (you can also use
 
 Then you'll see your **API Key** under the Authentication section.
 
+## Fortnite API Key
+
+!!! info ""
+    Required by `fortnite` command. *Will be implemented in the next release.*
+
+Go to [Fortnite Tracer Network Site](https://fortnitetracker.com/site-api).
+
+Login/Register your account (Click Login/Register at the top right corner).
+After you've (registered and) logged in, click on **Generate API key**.
+
+Fill up the given form with your name, email, website (you can also use
+<https://bastionbot.org>) and description. After that click on
+**Generate API key**.
+
+Then you'll see your **API Key** under the Authentication section.
+
 ## HiRez API Key
 
 !!! info ""
