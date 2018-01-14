@@ -96,7 +96,7 @@ Then you'll see your **API Key** under the Authentication section.
 ## Fortnite API Key
 
 !!! info ""
-    Required by `fortnite` command. *Will be implemented in the next release.*
+    Required by `fortnite` command.
 
 Go to [Fortnite Tracer Network Site](https://fortnitetracker.com/site-api).
 
