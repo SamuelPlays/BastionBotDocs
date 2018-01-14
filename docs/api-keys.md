@@ -112,7 +112,7 @@ Then you'll see your **API Key** under the Authentication section.
 ## HiRez API Key
 
 !!! info ""
-    Required by `paladins` command.
+    Required by `paladins` and `smite` commands.
 
 Fill up the [Hi-Rez Developer Credentials Application Form](https://fs12.formsite.com/HiRez/form48/secure_index.html)
 with correct details. Then submit it.
