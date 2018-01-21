@@ -48,6 +48,21 @@ Then click on **Generate token** button at the bottom to generate your new token
 Copy the new token and keep it somewhere safe, as you won't be able to see it
 again for security reasons.
 
+## Patreon API Key
+
+!!! info ""
+    Required by `patrons` command.
+
+Go to the [Patreon Client Registration](https://www.patreon.com/portal/registration/register-clients).
+
+Click on the **Create Client** button.
+
+Fill up the details as applicable, and click on the **Create Client** button at
+the bottom.
+
+Now that your client is registered, you'll see the required credentials listed
+under your client.
+
 ## Cleverbot API Key
 
 !!! info ""
