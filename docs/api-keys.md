@@ -28,6 +28,26 @@ On the left tab, click **Credentials**. Then click **Create Credentials**
 button. Now click on **API Key**. A window will popup with your **Google API
 key.**
 
+## GitHub API Key
+
+!!! info ""
+    Required by `contributors` command. It would still work without it, but it's
+    limited to 60 requests per hour.
+
+Go to the [GitHub Developer Settings > Personal Access Tokens](https://github.com/settings/tokens).
+
+Click on **Generate new token**.
+
+Write *Bastion Bot* (or anything you like) in the **Token Description**.
+
+In the **Select scopes** section, deselect everything. Bastion doesn't need to
+access any scopes, so it's better not to select any.
+
+Then click on **Generate token** button at the bottom to generate your new token.
+
+Copy the new token and keep it somewhere safe, as you won't be able to see it
+again for security reasons.
+
 ## Cleverbot API Key
 
 !!! info ""
