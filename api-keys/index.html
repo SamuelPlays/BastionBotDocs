@@ -395,6 +395,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#github-api-key" title="GitHub API Key" class="md-nav__link">
+    GitHub API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patreon-api-key" title="Patreon API Key" class="md-nav__link">
+    Patreon API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cleverbot-api-key" title="Cleverbot API Key" class="md-nav__link">
     Cleverbot API Key
   </a>
@@ -617,6 +631,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#github-api-key" title="GitHub API Key" class="md-nav__link">
+    GitHub API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patreon-api-key" title="Patreon API Key" class="md-nav__link">
+    Patreon API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cleverbot-api-key" title="Cleverbot API Key" class="md-nav__link">
     Cleverbot API Key
   </a>
@@ -723,6 +751,29 @@ created, click on <strong>Enable APIs</strong>.</p>
 <p>On the left tab, click <strong>Credentials</strong>. Then click <strong>Create Credentials</strong>
 button. Now click on <strong>API Key</strong>. A window will popup with your <strong>Google API
 key.</strong></p>
+<h2 id="github-api-key">GitHub API Key<a class="headerlink" href="#github-api-key" title="Permanent link">#</a></h2>
+<div class="admonition info">
+<p>Required by <code>contributors</code> command. It would still work without it, but it&rsquo;s
+limited to 60 requests per hour.</p>
+</div>
+<p>Go to the <a href="https://github.com/settings/tokens">GitHub Developer Settings &gt; Personal Access Tokens</a>.</p>
+<p>Click on <strong>Generate new token</strong>.</p>
+<p>Write <em>Bastion Bot</em> (or anything you like) in the <strong>Token Description</strong>.</p>
+<p>In the <strong>Select scopes</strong> section, deselect everything. Bastion doesn&rsquo;t need to
+access any scopes, so it&rsquo;s better not to select any.</p>
+<p>Then click on <strong>Generate token</strong> button at the bottom to generate your new token.</p>
+<p>Copy the new token and keep it somewhere safe, as you won&rsquo;t be able to see it
+again for security reasons.</p>
+<h2 id="patreon-api-key">Patreon API Key<a class="headerlink" href="#patreon-api-key" title="Permanent link">#</a></h2>
+<div class="admonition info">
+<p>Required by <code>patrons</code> command.</p>
+</div>
+<p>Go to the <a href="https://www.patreon.com/portal/registration/register-clients">Patreon Client Registration</a>.</p>
+<p>Click on the <strong>Create Client</strong> button.</p>
+<p>Fill up the details as applicable, and click on the <strong>Create Client</strong> button at
+the bottom.</p>
+<p>Now that your client is registered, you&rsquo;ll see the required credentials listed
+under your client.</p>
 <h2 id="cleverbot-api-key">Cleverbot API Key<a class="headerlink" href="#cleverbot-api-key" title="Permanent link">#</a></h2>
 <div class="admonition info">
 <p>Required by <code>chat</code> command. And if you want to chat with Bastion.</p>
