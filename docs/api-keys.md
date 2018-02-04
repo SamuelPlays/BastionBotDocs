@@ -166,6 +166,18 @@ HiRez **DevId** & **AuthKey**.
 
 Read [this article](https://dev.twitch.tv/docs/v5/guides/authentication/#registration) on [How to get Twitch API Client ID & Client Secret](https://dev.twitch.tv/docs/v5/guides/authentication/#registration).
 
+## Rocket League User Key
+
+!!! info ""
+    Required by `rocketLeague` command.
+
+[Rocket League's API](https://api.rocketleague.com) is currently in closed beta.
+So, you can't request an API key yet. Therefore, you can't use this command yet.
+Only a selected few have access their API. And Bastion is one of them, so the
+public Bastion bot can make use of the `rocketLeague` command. As soon as they
+allow public access to their API, you can request an API key and use the
+`rocketLeague` command in your self hosted Bastion.
+
 ## Musixmatch API Key
 
 !!! info ""
