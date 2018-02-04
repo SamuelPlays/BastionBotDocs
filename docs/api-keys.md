@@ -195,3 +195,16 @@ When all the signup steps are completed, you'll get your Musixmatch API key.
 
 Read [The Movie Database FAQ](https://www.themoviedb.org/faq/api) to know how
 to get their API Key.
+
+## IGDB API Key
+
+!!! info ""
+    Required by `game` command.
+
+Visit the [IGDB API Plans page](https://api.igdb.com/pricing).
+
+Signup for the plan as per your requirements. The **Free** plan should be
+enough though.
+
+After you've successfully signed up, you'll see your API Key in the
+**credentials** section of the page.
