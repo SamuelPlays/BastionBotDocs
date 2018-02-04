@@ -166,7 +166,7 @@ HiRez **DevId** & **AuthKey**.
 
 Read [this article](https://dev.twitch.tv/docs/v5/guides/authentication/#registration) on [How to get Twitch API Client ID & Client Secret](https://dev.twitch.tv/docs/v5/guides/authentication/#registration).
 
-## Rocket League User Key
+## Rocket League API Key
 
 !!! info ""
     Required by `rocketLeague` command.
