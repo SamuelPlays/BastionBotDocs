@@ -23,7 +23,7 @@ theme:
   font:
     text: 'Roboto'
     code: 'Source Code Pro'
-  logo: 'assets/images/BastionLogo_Text_White.png'
+  logo: 'assets/images/BastionLogo_Eye_ON.png'
   feature:
     tabs: true
 
