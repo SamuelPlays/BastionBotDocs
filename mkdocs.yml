@@ -10,7 +10,7 @@ repo_url: 'https://github.com/TheBastionBot/BastionBotDocs'
 edit_uri: edit/master/docs/
 
 # Copyright
-copyright: 'Copyright &copy; 2017 - The Bastion Bot Project'
+copyright: 'Copyright &copy; 2017-2018 - The Bastion Bot Project'
 
 # Configuration
 theme:
@@ -18,19 +18,20 @@ theme:
   language: 'en'
   custom_dir: 'theme'
   palette:
-    primary: 'grey'
-    accent: 'cyan'
+    primary: 'White'
+    accent: 'Cyan'
+  favicon: 'favicon.ico'
   font:
     text: 'Roboto'
     code: 'Source Code Pro'
-  logo: 'assets/images/BastionLogo_Text_White.png'
+  logo: 'assets/images/BastionLogo_Eye_ON.png'
   feature:
     tabs: true
 
 extra_css:
   - 'assets/stylesheets/extra.css'
 extra_javascript:
-  - 'assets/javascripts/extra.js'
+  - 'assets/scripts/extra.js'
 
 # Options
 extra:
@@ -82,4 +83,4 @@ pages:
     - Documentation: 'dev.md'
 
 # Development
-dev_addr: '0.0.0.0:80'
+dev_addr: '0.0.0.0:1337'
