@@ -27,10 +27,10 @@ theme:
   feature:
     tabs: true
 
-extra_css:
-  - 'assets/stylesheets/extra.css'
-extra_javascript:
-  - 'assets/javascripts/extra.js'
+# extra_css:
+#   - 'assets/stylesheets/extra.css'
+# extra_javascript:
+#   - 'assets/javascripts/extra.js'
 
 # Options
 extra:
@@ -82,4 +82,4 @@ pages:
     - Documentation: 'dev.md'
 
 # Development
-dev_addr: '0.0.0.0:80'
+dev_addr: '0.0.0.0:1337'
