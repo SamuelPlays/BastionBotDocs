@@ -20,6 +20,7 @@ theme:
   palette:
     primary: 'White'
     accent: 'Cyan'
+  favicon: 'favicon.ico'
   font:
     text: 'Roboto'
     code: 'Source Code Pro'
