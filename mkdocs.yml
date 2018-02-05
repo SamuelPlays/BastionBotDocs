@@ -28,8 +28,8 @@ theme:
   feature:
     tabs: true
 
-# extra_css:
-#   - 'assets/stylesheets/extra.css'
+extra_css:
+  - 'assets/stylesheets/extra.css'
 extra_javascript:
   - 'assets/scripts/extra.js'
 
