@@ -18,8 +18,8 @@ theme:
   language: 'en'
   custom_dir: 'theme'
   palette:
-    primary: 'grey'
-    accent: 'cyan'
+    primary: 'White'
+    accent: 'Cyan'
   font:
     text: 'Roboto'
     code: 'Source Code Pro'
