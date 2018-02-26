@@ -106,11 +106,11 @@ Here's how you can do that:
 2.  Download (clone) Bastion's files from GitHub:
 ```bash
 # If you're on GNU/Linux
-cd ~ && git clone -b master -q --depth 1 https://github.com/TheBastionBot/Bastion.git
+cd ~ && git clone -b stable -q --depth 1 https://github.com/TheBastionBot/Bastion.git
 # If you're on macOS
-cd "/Users/$USER" && git clone -b master -q --depth 1 https://github.com/TheBastionBot/Bastion.git
+cd "/Users/$USER" && git clone -b stable -q --depth 1 https://github.com/TheBastionBot/Bastion.git
 # If you're on Windows
-cd %USERPROFILE%\Desktop && git clone -b master -q --depth 1 https://github.com/TheBastionBot/Bastion.git
+cd %USERPROFILE%\Desktop && git clone -b stable -q --depth 1 https://github.com/TheBastionBot/Bastion.git
 ```
 
 ## Install Bastion Dependencies
