@@ -41,7 +41,9 @@ press <kbd>&crarr; Enter</kbd>.
 After you're done configuring Bastion, it'll let you know that the installation
 was successfully completed and Bastion is ready to boot up. :smile:
 
-Now, you should have a new folder named `Bastion` in your Windows Desktop.
+Now, you should have a new folder named `Bastion` in your User Directory
+(`%USERPROFILE%` or `C:\Users\<User Name>`).  
+
 
 ## Get Bastion running
 
