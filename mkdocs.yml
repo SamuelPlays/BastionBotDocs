@@ -77,6 +77,7 @@ pages:
       - Install on Linux: 'install-linux.md'
       - Install on macOS: 'install-macos.md'
       - Install on Windows : 'install-win.md'
+      - Install on Windows (WSL) : 'install-win-wsl.md'
       - Install Manually : 'install-manual.md'
     - Update: 'update.md'
   - Developer:
