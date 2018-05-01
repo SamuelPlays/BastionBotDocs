@@ -89,7 +89,7 @@ npm install -g ffmpeg-binaries
 ### On macOS
 ```bash
 sudo xcode-select --install # xcode-command line tools
-sudo brew install wget curl screen python ffmpeg # other dependencies
+brew install wget curl screen python ffmpeg # other dependencies
 ```
 
 ### On Windows
