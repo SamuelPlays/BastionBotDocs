@@ -101,16 +101,16 @@ Then you'll see your **API Key** under the **API Keys** section.
 !!! info ""
     Required by `pubg` command.
 
-Go to [PlayerUnknown's Battlegrounds Tracer Network Site](https://pubgtracker.com/site-api).
+Go to [PlayerUnknown's Battlegrounds Developer Portal](https://developer.playbattlegrounds.com/).
 
-Login/Register your account (Click Login/Register at the top right corner).
-After you've (registered and) logged in, click on **Generate API key**.
+Login/Register your account (Click MY APPS at the top right corner).
+After you've (registered and) logged in, click on **Register a New App**.
 
-Fill up the given form with your name, email, website (you can also use
-<https://bastionbot.org>) and description. After that click on
-**Generate API key**.
+Fill up the given form with the asked details like your name, app's name
+(Bastion), website (you can also use <https://bastionbot.org>), description,
+etc.
 
-Then you'll see your **API Key** under the Authentication section.
+After you've registered a new application, you'll get your **API Key**.
 
 ## Battlefield API Key
 
