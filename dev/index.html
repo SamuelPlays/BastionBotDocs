@@ -63,8 +63,8 @@
     
     
       
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Source+Code+Pro">
-        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Source Code Pro","Courier New",Courier,monospace}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700|Source+Code+Pro">
+        <style>body,input{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Source Code Pro","Courier New",Courier,monospace}</style>
       
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
@@ -112,19 +112,26 @@
       </a>
     
     
-      <header class="md-header" data-md-component="header">
+      <!-- Application header -->
+<header class="md-header" data-md-component="header">
+  <!-- Top-level navigation -->
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
+      <!-- Link to home -->
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="https://docs.bastionbot.org" title="Documentation - Bastion Bot" class="md-header-nav__button md-logo">
           
-            <img src="../assets/images/Bastion_Logomark_C.png" width="24" height="24">
+            <img src="../assets/images/Bastion_Logomark_C.png" width="24" height="24" />
           
         </a>
       </div>
+
+      <!-- Button to toggle drawer -->
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
+
+      <!-- Header title -->
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
@@ -139,10 +146,13 @@
           
         </div>
       </div>
+
+      <!-- Button to open search dialogue -->
       <div class="md-flex__cell md-flex__cell--shrink">
         
           
             <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            <!-- Search interface -->
             
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
@@ -169,31 +179,6 @@
           
         
       </div>
-      <!-- 
-        <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-
-
-  
-
-
-  <a href="https://github.com/TheBastionBot/BastionBotDocs/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      BastionBotDocs
-    </div>
-  </a>
-
-          </div>
-        </div>
-       -->
     </div>
   </nav>
 </header>
@@ -261,38 +246,22 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="drawer">
+                    <!-- Main navigation -->
+<nav class="md-nav md-nav--primary" data-md-level="0">
+  <!-- Site title -->
+  <label class="md-nav__title md-nav__title--site" for="drawer" style="background-color:#111111;">
+    <!-- Site Logo -->
     <span class="md-nav__button md-logo">
       
-        <img src="../assets/images/Bastion_Logomark_C.png" width="24" height="24">
+        <img src="../assets/images/Bastion_Logomark_C.png" width="48" height="48" />
       
     </span>
+
+    <!-- Site Name -->
     Documentation - Bastion Bot
   </label>
-  <!-- 
-    <div class="md-nav__source">
-      
 
-
-  
-
-
-  <a href="https://github.com/TheBastionBot/BastionBotDocs/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      BastionBotDocs
-    </div>
-  </a>
-
-    </div>
-   -->
+  <!-- Render item list -->
   <ul class="md-nav__list" data-md-scrollfix>
     
       
@@ -582,10 +551,14 @@
       </main>
       
         
+
+<!-- Application footer -->
 <footer class="md-footer">
+  <!-- Link to previous and/or next page -->
   
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
+        <!-- Link to previous page -->
         
           <a href="../update/" title="Update" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -601,31 +574,40 @@
             </div>
           </a>
         
+
+        <!-- Link to next page -->
         
       </nav>
     </div>
   
+
+  <!-- Further information -->
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
+      <!-- Copyright information -->
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
             Copyright &copy; 2017-2018 - The Bastion Bot Project
           </div>
         
+
         powered by <a>robots</a>
       </div>
+
+      <!-- Social links -->
       
-        
+        <!-- Social links in footer -->
+
   <div class="md-footer-social">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" />
+
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <a href="https://github.com/TheBastionBot" class="md-footer-social__link fab fa-github"></a>
     
-      <a href="https://github.com/TheBastionBot" class="md-footer-social__link fa fa-github"></a>
+      <a href="https://twitter.com/TheBastionBot" class="md-footer-social__link fab fa-twitter"></a>
     
-      <a href="https://twitter.com/TheBastionBot" class="md-footer-social__link fa fa-twitter"></a>
-    
-      <a href="https://discord.gg/fzx8fkt" class="md-footer-social__link fa fa-discord"></a>
+      <a href="https://discord.gg/fzx8fkt" class="md-footer-social__link fab fa-discord"></a>
     
   </div>
 
@@ -638,7 +620,7 @@
     
       <script src="../assets/javascripts/application.9fb73e57.js"></script>
       
-      <script>app.initialize({version:"0.17.2",url:{base:".."}})</script>
+      <script>app.initialize({version:"0.17.3",url:{base:".."}})</script>
       
         <script src="../assets/scripts/extra.js"></script>
       
