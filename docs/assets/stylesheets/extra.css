@@ -15,7 +15,120 @@ kbd:active {
   border-bottom: 2px;
 }
 
-/* Discord Invite */
+/**
+ * Dark Theme
+ */
+
+/* Header */
+.md-header {
+  background-color: #070a0c !important;
+  color: white !important;
+}
+.md-tabs {
+  background-color: #0c0f11 !important;
+  color: white !important;
+}
+
+/* ToC */
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background-color: #E0E0E0 !important;
+}
+.md-nav {
+  background: #070a0c;
+}
+.md-nav .md-nav__list {
+  background: black !important;
+}
+.md-nav__title {
+  color: white !important;
+}
+.md-nav__title::before {
+  color: white !important;
+}
+
+/* Search bar */
+.md-search .md-search__inner .md-search__form {
+  background-color: white;
+}
+.md-search__input + .md-search__icon {
+  color: black !important;
+}
+
+/* Default text color and background color */
+.md-main {
+  color: #bfbfbf !important;
+  background-color: black !important;
+}
+.md-footer-nav {
+  background-color: #070a0c !important;
+}
+.md-footer-meta {
+  background-color: black !important;
+}
+
+/* Links */
+.md-main article a {
+  color: #40bffb !important;
+}
+.md-main .md-nav__link[data-md-state='blur'] {
+  color: grey;
+}
+.md-main a:hover,
+.md-main a:focus,
+.md-main .md-nav__link--active {
+  color: #62d8fb !important;
+}
+
+/* Main headlines */
+.md-main h1, .md-main h2, .md-main h3, .md-main h4, .md-main h5, .md-main h5, .md-main h6 {
+  color: white !important;
+}
+
+/* Tables */
+tbody {
+  background-color: #151515;
+}
+tbody .linenos {
+  color: grey !important;
+}
+tbody .code {
+  background-color: #0f0f0f !important;
+}
+tbody .code .codehilite {
+  background: none;
+  color: white !important;
+}
+tbody .code .codehilite pre {
+  color: white !important;
+}
+.md-typeset code {
+  background-color: #151515;
+  color: white !important;
+  box-shadow: .29412em 0 0 #0f0f0f, -.29412em 0 0 #151515;
+}
+
+/* Copy to clipboard */
+.md-clipboard {
+  background-color: white;
+  background-color: rgb(255, 255, 255, 0.5);
+  transition: background .2s ease;
+}
+.md-clipboard:hover {
+  background-color: white;
+  background-color: rgb(255, 255, 255, 0.95);
+}
+.md-clipboard::before {
+  color: black !important
+}
+.md-clipboard__message {
+  background-color: white;
+  background-color: rgb(255, 255, 255, 0.95);
+  color: black;
+}
+
+/**
+ * Discord Invite
+ */
 .discordInvite {
   width: auto;
   max-width: 500px;
