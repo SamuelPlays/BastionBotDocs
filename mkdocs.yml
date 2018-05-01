@@ -22,7 +22,7 @@ theme:
     accent: 'Cyan'
   favicon: 'favicon.ico'
   font:
-    text: 'Roboto'
+    text: 'Open Sans'
     code: 'Source Code Pro'
   logo: 'assets/images/Bastion_Logomark_C.png'
   feature:
