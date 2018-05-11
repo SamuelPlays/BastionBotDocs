@@ -41,14 +41,18 @@ Now you can start Bastion, as usual, using the following command:
 
 ## Updating Bastion on Windows
 
-Go to your Bastion directory (It's in your desktop, If you haven't changed the
-default installation directory and path).
+Go to your Bastion directory (it's in your User Directory - `%USERPROFILE%` or
+`C:\Users\<User Name>` - if you haven't changed the default installation
+directory and path).
 
-**Right-Click** on the `update.cmd` file and Click **Run as Administrator**.
+**Right-Click** on the `bastion.cmd` script/file and Click **Run as
+Administrator** and type `U` or `Update Bastion` and press <kbd>Enter</kbd> to
+start the update.
 
 Wait for a few moments for the updater to finish updating.
 
 After the updater has updated Bastion, it'll let you know that the update
 was successfully completed and Bastion is ready to boot up. :smile:
 
-Now you can start Bastion, as usual, by **Double-Clicking** the `run.cmd` file.
+Now you can start Bastion, as usual, by **Double-Clicking** the `bastion.cmd`
+script/file.
