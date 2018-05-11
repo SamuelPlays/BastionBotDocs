@@ -156,8 +156,9 @@ cd ~/Bastion # Changes the current directory to the `Bastion`, if you aren't alr
     can it do? Just run the following command to know more: `./bastion.sh`
 
 ### On Windows
-You get a `run.cmd` script file that makes it easy to run Bastion without
-any hassle. To start Bastion, **Double-Click** the `run.cmd` file.
+You get a `bastion.cmd` script/file that makes it easy to run Bastion without
+any hassle. To start Bastion, **Double-Click** the `bastion.cmd` file and
+type `S` or `Start Bastion` and press <kbd>Enter</kbd>.
 
 Now, you will see the status of Bastion in a Command Prompt (CMD) window.
 If you want to terminate & stop Bastion, just close the Command Prompt window.
