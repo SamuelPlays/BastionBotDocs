@@ -33,4 +33,8 @@ description: Read how to install and configure Bastion Bot in Heroku. One step c
   ```
 
 ## Step 4: Run Bastion
-
+- Push changes to Heroku
+  ```
+  git push heroku master
+  ```
+- Bastion will automatically start in a few seconds.
