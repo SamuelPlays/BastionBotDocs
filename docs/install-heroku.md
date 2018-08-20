@@ -25,5 +25,12 @@ description: Read how to install and configure Bastion Bot in Heroku. One step c
   ```
 
 ## Step 3: Configure Bastion
+- Copy the `config_example.json` and `credentials_example.json` files in the `settings` directory of Bastion and rename the copies to `config.json` and `credentials.json`.
+- Edit these files and make whatever changes you want.
+- Force git to add these files
+  ```
+  git add -f settings/config.json settings/credentials.json
+  ```
 
 ## Step 4: Run Bastion
+
