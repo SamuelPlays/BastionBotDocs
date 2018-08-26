@@ -47,5 +47,10 @@ Before you can install Bastion in Heroku, you need these in your computer. Insta
   ```
 - Bastion will automatically start in a few seconds.
 
-# Notes
-- If you want to view the logs from Heroku, run `heroku logs --tail`.
+
+!!! note
+    If you want to view the logs from Heroku, run the following command:  
+    ```bash
+    heroku logs --tail
+    ```  
+    It will stream the logs from Heroku to your terminal. You can use `Ctrl + C` to stop streaming it.
