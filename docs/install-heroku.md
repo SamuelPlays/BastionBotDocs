@@ -2,6 +2,9 @@ description: Read how to install and configure Bastion Bot in Heroku. One step c
 
 # Installing Bastion in Heroku
 
+### Warning:
+Bastion stores its data in files on disk. Heroku’s Cedar stack has an ephemeral filesystem. Bastion will work with Heroku, but the data will be cleared periodically by Heroku. If you were to use Bastion on Heroku, you would lose your entire data at least once every 24 hours.
+
 ## Step 1: Set up Heroku
 - Go to [Heroku](https://www.heroku.com/) and create a new account (or login, if you already have an account).
 - Download the Heroku CLI installer (from [here](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)) for your OS and run the installer to install it.
