@@ -76,11 +76,11 @@ pages:
     - Install:
       - Install on Linux: 'install-linux.md'
       - Install on macOS: 'install-macos.md'
-      - Install on Windows : 'install-win.md'
-      - Install on Windows (WSL) : 'install-win-wsl.md'
+      - Install on Windows: 'install-win.md'
+      - Install on Windows (WSL): 'install-win-wsl.md'
       - Install on Heroku: 'install-heroku.md'
       - Install on Glitch: 'install-glitch.md'
-      - Install Manually : 'install-manual.md'
+      - Install Manually: 'install-manual.md'
     - Update: 'update.md'
   - Developer:
     - Documentation: 'dev.md'
