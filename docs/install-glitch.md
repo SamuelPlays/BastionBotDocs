@@ -5,6 +5,7 @@ description: Read how to install and configure Bastion Bot in Glitch. One step c
 ## Initial Setup (GitHub)
 Before you can install Bastion in Glitch, the following steps needs to be
 performed:
+
   * Go to [GitHub](https://git-scm.com/downloads).
   * Either [**sign in** or **sign up** for GitHub](https://github.com/login).
   * Go to [Bastion's repository](https://github.com/TheBastionBot/Bastion).
