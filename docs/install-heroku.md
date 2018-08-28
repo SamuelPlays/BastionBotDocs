@@ -7,6 +7,7 @@ description: Read how to install and configure Bastion Bot in Heroku. One step c
 
 ## Prerequisites
 Before you can install Bastion in Heroku, you need these in your computer. Install them if you don't already have it.
+
 - [Git](https://git-scm.com/downloads)
 - [Heroku CLI](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
 
