@@ -16,7 +16,8 @@ performed:
 
 ## Initial Setup (Glitch)
   * Go to [Glitch](https://glitch.com)
-  * And then create a **New Project**. It can be any type of project.
+  * And then **Sign in with GitHub**.
+  * Then create a **New Project**. It can be any type of project.
   * **Make your project private before doing anything else so that your
     credentials are safe from others. If you're not able to do this, ask around
     in [Bastion HQ](https://discord.gg/fzx8fkt) and some amazing people will
@@ -25,23 +26,12 @@ performed:
   **Console**.
   * Type the following in the prompt, in order.
 ```
-cd /app
-```
-```
-rm -rf /app/*
-```
-```
-rm -rf /app/.* (Ignore anything that prints out in the console.)
-```
-  git clone https://github.com/github_user_name/bastion_repo_name.git and make sure to replace `github_user_name` with your
-  GitHub username and `bastion_repo_name` with the name of the repository
-  you forked (will be `Bastion` by default). For example, [my GitHub username is `k3rn31p4nic`](https://github.com/k3rn31p4nic)
-  and my forked repository name is `Bastion`, so I'll write:
-```
+> cd /app
+> rm -rf /app/**
+> rm -rf /app/.* (Ignore anything that prints out in the console.)
+> git clone https://github.com/github_user_name/bastion_repo_name.git and make sure to replace `github_user_name` with your GitHub username and `bastion_repo_name` with the name of the repository you forked (will be `Bastion` by default). For example, [my GitHub username is `k3rn31p4nic`](https://github.com/k3rn31p4nic)and my forked repository name is `Bastion`, so I'll write:
 https://github.com/k3rn31p4nic/Bastion.git
-```
-```
-refresh (This will sync your console with your file browser.)
+> refresh (This will sync your console with your file browser.)
 ```
   * Bastion will now be imported to Glitch in a few seconds.
 
