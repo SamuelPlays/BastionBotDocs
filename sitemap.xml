@@ -1,58 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
-        
     <url>
-     <loc>https://docs.bastionbot.org/home/</loc>
-     <lastmod>2018-05-01</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
      <loc>https://docs.bastionbot.org/</loc>
-     <lastmod>2018-05-01</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>https://docs.bastionbot.org/get-started/</loc>
-     <lastmod>2018-05-01</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
      <loc>https://docs.bastionbot.org/api-keys/</loc>
-     <lastmod>2018-05-01</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://docs.bastionbot.org</loc>
-     <lastmod></lastmod>
+     <loc>https://docs.bastionbot.org/install-linux/</loc>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    <url>
+     <loc>https://docs.bastionbot.org/install-macos/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.bastionbot.org/install-win/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.bastionbot.org/install-win-wsl/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.bastionbot.org/install-heroku/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.bastionbot.org/install-glitch/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.bastionbot.org/install-manual/</loc>
+     <lastmod>2018-08-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     <url>
      <loc>https://docs.bastionbot.org/update/</loc>
-     <lastmod>2018-05-01</lastmod>
+     <lastmod>2018-08-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>https://docs.bastionbot.org/dev/</loc>
-     <lastmod>2018-05-01</lastmod>
+     <loc></loc>
+     
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
 </urlset>
