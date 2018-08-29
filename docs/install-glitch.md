@@ -27,14 +27,14 @@ performed:
   * Type the following in the prompt, replacing `github_user_name` with your
     GitHub username and `bastion_repo_name` with the name of the repository
     you forked (will be `Bastion` by default):
-    ```
-    https://github.com/github_user_name/bastion_repo_name.git
-    ```
+```
+https://github.com/github_user_name/bastion_repo_name.git
+```
     For example, [my GitHub username is `k3rn31p4nic`](https://github.com/k3rn31p4nic)
     and my forked repository name is `Bastion`, so I'll write:
-    ```
-    https://github.com/k3rn31p4nic/Bastion.git
-    ```
+```
+https://github.com/k3rn31p4nic/Bastion.git
+```
   * Bastion will now be imported to Glitch in a few seconds.
 
 
