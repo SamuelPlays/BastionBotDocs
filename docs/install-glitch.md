@@ -17,24 +17,42 @@ performed:
 ## Initial Setup (Glitch)
   * Go to [Glitch](https://glitch.com)
   * And then **Sign in with GitHub**.
-  * Then create a **New Project**. It can be any type of project.
+  * Then create a **New Project** in Glitch. It can be of any type.
   * **Make your project private before doing anything else so that your
     credentials are safe from others. If you're not able to do this, ask around
     in [Bastion HQ](https://discord.gg/fzx8fkt) and some amazing people will
     help you out**.
-  * Click on the **Logs** button (in the top left corner, above your file manager) and on the pop up click on
-  **Console**.
-  * Type the following in the prompt, in order.
+  * Click on the **Logs** button (at the top left corner) in your Glitch project.
+    It will open the log window at the bottom, where you can find the **Console**
+    button. Click on that and you'll be redirected to your project's console.
+  * Now, before we install Bastion, we'll need to clear all files from the default
+    project that was automatically created by Glitch. Run the following command in
+    your project's console to clean everything up:
+```bash
+rm -rf /app/* /app/.* 1>/dev/null
 ```
-> cd /app
-> rm -rf /app/**
-> rm -rf /app/.* (Ignore anything that prints out in the console.)
-> git clone https://github.com/github_user_name/bastion_repo_name.git and make sure to replace `github_user_name` with your GitHub username and `bastion_repo_name` with the name of the repository you forked (will be `Bastion` by default). For example, [my GitHub username is `k3rn31p4nic`](https://github.com/k3rn31p4nic)and my forked repository name is `Bastion`, so I'll write:
-https://github.com/k3rn31p4nic/Bastion.git
-> refresh (This will sync your console with your file browser.)
+
+## Install Bastion
+  * First of all, we need to clone (copy) Bastion from your forked repository. Run
+    the following command to do that, replacing `github_user_name` with your GitHub
+    username and `bastion_repo_name` with the name of the repository you forked
+    (will be `Bastion` by default)
+```bash
+git clone https://github.com/github_user_name/bastion_repo_name.git .
+```
+   * For example, [my GitHub username is `k3rn31p4nic`](https://github.com/k3rn31p4nic)
+    and my forked repository name is `Bastion`, so I'll write:
+```bash
+git clone https://github.com/k3rn31p4nic/Bastion.git .
 ```
   * Bastion will now be imported to Glitch in a few seconds.
-
+  * But, when you go to your project editor, you won't see it. *Why?* Because Glitch
+    console doesn't sync with your project editor automatically. To do that, run the
+    following command:
+```bash
+refresh
+```
+  * Now when can go back to your project editor, you'll see that it has been updated.
 
 ## Setup Bastion in Glitch
   * You'll see a list of Bastion's files in the left side in Glitch.
