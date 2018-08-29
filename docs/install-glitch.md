@@ -23,9 +23,7 @@ performed:
     help you out**.
   * Click on the **Logs** button (in the top left corner, above your file manager) and on the pop up click on
   **Console**.
-  * Type the following in the prompt, in order. Replace `github_user_name` with your
-    GitHub username and `bastion_repo_name` with the name of the repository
-    you forked (will be `Bastion` by default):
+  * Type the following in the prompt, in order.
 ```
 cd /app
 ```
