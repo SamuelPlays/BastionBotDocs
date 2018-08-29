@@ -55,3 +55,6 @@ git push heroku master
     heroku logs --tail
     ```  
     It will stream the logs from Heroku to your terminal. You can use `Ctrl + C` to stop streaming it.
+
+!!! tip "Show your love!"
+    If you like Bastion, please consider giving it a :star: on [GitHub](https://github.com/TheBastionBot/Bastion).

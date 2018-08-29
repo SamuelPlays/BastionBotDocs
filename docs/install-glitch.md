@@ -52,3 +52,6 @@ https://github.com/k3rn31p4nic/Bastion.git
 
 ## Run Bastion
 - Bastion will be up and running by now, *automatically*!
+
+!!! tip "Show your love!"
+    If you like Bastion, please consider giving it a :star: on [GitHub](https://github.com/TheBastionBot/Bastion).
