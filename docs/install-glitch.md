@@ -23,7 +23,7 @@ performed:
     help you out**.
   * Click on the **Logs** button (in the top left corner, above your file manager) and on the pop up click on
   **Console**.
-  * Type the following in the prompt, in order. replacing `github_user_name` with your
+  * Type the following in the prompt, in order. Replace `github_user_name` with your
     GitHub username and `bastion_repo_name` with the name of the repository
     you forked (will be `Bastion` by default):
 ```
@@ -35,7 +35,7 @@ rm -rf /app/*
 ```
 rm -rf /app/.* (Ignore anything that prints out in the console.)
 ```
-  git clone https://github.com/github_user_name/bastion_repo_name.git replacing `github_user_name` with your
+  git clone https://github.com/github_user_name/bastion_repo_name.git and make sure to replace `github_user_name` with your
   GitHub username and `bastion_repo_name` with the name of the repository
   you forked (will be `Bastion` by default). For example, [my GitHub username is `k3rn31p4nic`](https://github.com/k3rn31p4nic)
   and my forked repository name is `Bastion`, so I'll write:
