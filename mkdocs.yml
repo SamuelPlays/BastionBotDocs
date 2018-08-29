@@ -68,7 +68,7 @@ markdown_extensions:
 # Pages
 nav:
   - Home:
-    - The Bastion Bot: 'home.md'
+    - The Bastion Bot: 'https://bastionbot.org'
   - Documentation:
     - Intro: 'index.md'
     - Get Started: 'get-started.md'
@@ -83,7 +83,7 @@ nav:
       - Install Manually: 'install-manual.md'
     - Update: 'update.md'
   - Developer:
-    - Documentation: 'dev.md'
+    - Documentation: 'https://dev.bastionbot.org'
 
 # Development
 dev_addr: '0.0.0.0:1337'
