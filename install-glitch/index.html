@@ -484,6 +484,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#install-bastion" title="Install Bastion" class="md-nav__link">
+    Install Bastion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#setup-bastion-in-glitch" title="Setup Bastion in Glitch" class="md-nav__link">
     Setup Bastion in Glitch
   </a>
@@ -620,6 +627,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#install-bastion" title="Install Bastion" class="md-nav__link">
+    Install Bastion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#setup-bastion-in-glitch" title="Setup Bastion in Glitch" class="md-nav__link">
     Setup Bastion in Glitch
   </a>
@@ -676,33 +690,53 @@ performed:</p>
 <ul>
 <li>Go to <a href="https://glitch.com">Glitch</a></li>
 <li>And then <strong>Sign in with GitHub</strong>.</li>
-<li>Now create a <strong>New Project</strong> in Glitch.</li>
+<li>Then create a <strong>New Project</strong> in Glitch. It can be of any type.</li>
 <li><strong>Make your project private before doing anything else so that your
     credentials are safe from others. If you&rsquo;re not able to do this, ask around
     in <a href="https://discord.gg/fzx8fkt">Bastion HQ</a> and some amazing people will
     help you out</strong>.</li>
-<li>Go to <strong>Project Options</strong> (in the top left corner) and click on <strong>New
-    Project</strong> and then click on <strong>clone-from-repo</strong>.</li>
-<li>Type the following in the prompt, replacing <code>github_user_name</code> with your
-    GitHub username and <code>bastion_repo_name</code> with the name of the repository
-    you forked (will be <code>Bastion</code> by default):</li>
+<li>Click on the <strong>Logs</strong> button (at the top left corner) in your Glitch project.
+    It will open the log window at the bottom, where you can find the <strong>Console</strong>
+    button. Click on that and you&rsquo;ll be redirected to your project&rsquo;s console.</li>
+<li>Now, before we install Bastion, we&rsquo;ll need to clear all files from the default
+    project that was automatically created by Glitch. Run the following command in
+    your project&rsquo;s console to clean everything up:</li>
 </ul>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>https://github.com/github_user_name/bastion_repo_name.git
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>rm -rf /app/* /app/.* <span class="m">1</span>&gt;/dev/null
 </pre></div>
 </td></tr></table>
 
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>For example, [my GitHub username is `k3rn31p4nic`](https://github.com/k3rn31p4nic)
-and my forked repository name is `Bastion`, so I&#39;ll write:
+<h2 id="install-bastion">Install Bastion<a class="headerlink" href="#install-bastion" title="Permanent link">#</a></h2>
+<ul>
+<li>First of all, we need to clone (copy) Bastion from your forked repository. Run
+    the following command to do that, replacing <code>github_user_name</code> with your GitHub
+    username and <code>bastion_repo_name</code> with the name of the repository you forked
+    (will be <code>Bastion</code> by default)</li>
+</ul>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git clone https://github.com/github_user_name/bastion_repo_name.git .
 </pre></div>
 </td></tr></table>
 
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>https://github.com/k3rn31p4nic/Bastion.git
+<ul>
+<li>For example, <a href="https://github.com/k3rn31p4nic">my GitHub username is <code>k3rn31p4nic</code></a>
+    and my forked repository name is <code>Bastion</code>, so I&rsquo;ll write:</li>
+</ul>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>git clone https://github.com/k3rn31p4nic/Bastion.git .
 </pre></div>
 </td></tr></table>
 
 <ul>
 <li>Bastion will now be imported to Glitch in a few seconds.</li>
+<li>But, when you go to your project editor, you won&rsquo;t see it. <em>Why?</em> Because Glitch
+    console doesn&rsquo;t sync with your project editor automatically. To do that, run the
+    following command:</li>
+</ul>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>refresh
+</pre></div>
+</td></tr></table>
+
+<ul>
+<li>Now when can go back to your project editor, you&rsquo;ll see that it has been updated.</li>
 </ul>
 <h2 id="setup-bastion-in-glitch">Setup Bastion in Glitch<a class="headerlink" href="#setup-bastion-in-glitch" title="Permanent link">#</a></h2>
 <ul>
