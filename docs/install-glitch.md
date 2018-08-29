@@ -22,21 +22,18 @@ performed:
     credentials are safe from others. If you're not able to do this, ask around
     in [Bastion HQ](https://discord.gg/fzx8fkt) and some amazing people will
     help you out**.
-  * Go to **Project Options** (in the top left corner) and click on **Advanced
-    Options**.
-  * You may need to **Grant Access** to allow Glitch to import Bastion from
-    GitHub.
-  * Now click on **Import from GitHub** in the Advanced Options menu.
-  * Type the following in the prompt, replacing `your_github_user_name` with
-    your GitHub username and `your_bastion_repo_name` with the name of the
-    repository you forked (will be `Bastion` by default):
+  * Go to **Project Options** (in the top left corner) and click on **New
+    Project** and then click on **clone-from-repo**.
+  * Type the following in the prompt, replacing `github_user_name` with your
+    GitHub username and `bastion_repo_name` with the name of the repository
+    you forked (will be `Bastion` by default):
     ```
-    your_github_user_name/your_bastion_repo_name
+    https://github.com/github_user_name/bastion_repo_name.git
     ```
     For example, [my GitHub username is `k3rn31p4nic`](https://github.com/k3rn31p4nic)
     and my forked repository name is `Bastion`, so I'll write:
     ```
-    k3rn31p4nic/Bastion
+    https://github.com/k3rn31p4nic/Bastion.git
     ```
   * Bastion will now be imported to Glitch in a few seconds.
 
