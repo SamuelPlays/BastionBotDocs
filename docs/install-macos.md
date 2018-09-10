@@ -37,16 +37,20 @@ To start the installation, run the following command:
 
 Wait for a few moments for the installer to finish installing.
 
-After the installation is done, it will prompt you to configure Bastion and will
-ask you to configure Bastion, type/paste the answers as asked (here you'll be
-needing your API keys) and if you want to skip any step, just leave it blank and
-press <kbd>&crarr; Enter</kbd>.
-
-After you're done configuring Bastion, it'll let you know that the installation
+If everything was successful, it'll let you know that the installation
 was successfully completed and Bastion is ready to boot up. :smile:
 
 Now, you should have a new folder named `Bastion` in your `$HOME` (`~`)
 directory.
+
+## Configure Bastion
+Here comes the last (but not the least) step, configuring Bastion, before it's
+first run.
+
+1.  Go to the `settings` directory (folder), that's inside the `Bastion` folder.
+2.  You'll see two files here, `credentials.json` and `config.json`.
+3.  Edit the `credentials.json` and `config.json` files and make the changes as
+    required and save the file.
 
 ## Get Bastion running
 
