@@ -448,6 +448,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#configure-bastion" title="Configure Bastion" class="md-nav__link">
+    Configure Bastion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#get-bastion-running" title="Get Bastion running" class="md-nav__link">
     Get Bastion running
   </a>
@@ -606,6 +613,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#configure-bastion" title="Configure Bastion" class="md-nav__link">
+    Configure Bastion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#get-bastion-running" title="Get Bastion running" class="md-nav__link">
     Get Bastion running
   </a>
@@ -657,14 +671,27 @@ install everything you&rsquo;ll need to run Bastion.</p>
 <p>To start the installation, <strong>Right-Click</strong> the downloaded file and Click
 <strong>Run as Administrator</strong>.</p>
 <p>Wait for a few moments for the installer to finish installing.</p>
-<p>After the installation is done, it will prompt you to configure Bastion and will
-ask you to configure Bastion, type/paste the answers as asked (here you&rsquo;ll be
-needing your API keys) and if you want to skip any step, just leave it blank and
-press <kbd>&crarr; Enter</kbd>.</p>
-<p>After you&rsquo;re done configuring Bastion, it&rsquo;ll let you know that the installation
+<p>If everything was successful, it&rsquo;ll let you know that the installation
 was successfully completed and Bastion is ready to boot up. <img alt="😄" class="emojione" src="https://cdn.jsdelivr.net/emojione/assets/svg/1f604.svg" title=":smile:" /></p>
 <p>Now, you should have a new folder named <code>Bastion</code> in your User Directory
-(<code>%USERPROFILE%</code> or <code>C:\Users\&lt;User Name&gt;</code>).  </p>
+(<code>%USERPROFILE%</code> or <code>C:\Users\&lt;User Name&gt;</code>).</p>
+<h2 id="configure-bastion">Configure Bastion<a class="headerlink" href="#configure-bastion" title="Permanent link">#</a></h2>
+<p>Here comes the last (but not the least) step, configuring Bastion, before it&rsquo;s
+first run.</p>
+<ol>
+<li>Go to the <code>settings</code> directory (folder), that&rsquo;s inside the <code>Bastion</code> folder.</li>
+<li>You&rsquo;ll see two files here, <code>credentials.json</code> and <code>config.json</code>.</li>
+<li>Edit the <code>credentials.json</code> and <code>config.json</code> files and make the changes as
+    required and save the file.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please don&rsquo;t use the <strong>Notepad</strong> application that
+comes with Windows by default, because Notepad doesn&rsquo;t support the <code>LF</code>
+line endings and breaks the file. At least, use a code editor like
+<strong><a href="https://notepad-plus-plus.org/" title="Notepad++ - Free source code editor and Notepad replacement.">Notepad++</a></strong>
+or <strong><a href="https://atom.io/" title="Atom - A Hackable text editor for the 21st century.">Atom</a></strong>.</p>
+</div>
 <h2 id="get-bastion-running">Get Bastion running<a class="headerlink" href="#get-bastion-running" title="Permanent link">#</a></h2>
 <p>You get a <code>run.cmd</code> script file that makes it easy to run Bastion without
 any hassle. To start Bastion, <strong>Double-Click</strong> the <code>run.cmd</code> file.</p>
