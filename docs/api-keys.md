@@ -63,22 +63,6 @@ the bottom.
 Now that your client is registered, you'll see the required credentials listed
 under your client.
 
-## Cleverbot API Key
-
-!!! info ""
-    Required by `chat` command. And if you want to chat with Bastion.
-
-Go to the [Cleverbot API site](https://www.cleverbot.com/api).
-
-Select an **API Pack** as per your requirements. Click on **Add to Cart** /
-**Sign up now**.
-
-Input your details as mentioned. After you complete the signup, you will receive
-an email to verify your account. After you have verified, login to your account.
-
-After you are successfully logged in to your account, you will see your
-**API Key** in **My Accounds** section of the website.
-
 ## Bungie API Key
 
 !!! info ""
