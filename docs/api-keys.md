@@ -192,3 +192,19 @@ enough though.
 
 After you've successfully signed up, you'll see your API Key in the
 **credentials** section of the page.
+
+## Battle.net API Key
+
+!!! info ""
+    Required by `wow` command.
+
+Visit the [Battle.net Developer Portal](https://dev.battle.net).
+
+Login/Register your account (Click Login/Register at the top right corner).
+After you've (registered and) logged in, click on **Get API Keys**.
+
+Fill in the form with your details. You don't need to worry about the callback 
+URL, but make sure you select **World of Warcraft** in the franchises dropdown. 
+The **basic plan** should be adequate. After that click on **Register Application**.
+
+Then you'll see your **API Key** under the Keys section.
