@@ -62,6 +62,29 @@ Then if you agree to their Terms of Use, click on **Create New App**.
 
 Then you'll see your **API Key** under the **API Keys** section.
 
+## Clash of Clans API key
+
+!!! info ""
+    Required by `coc` command.
+
+Go to [Clash of Clans API](https://developer.clashofclans.com).
+
+Login/Register your account.
+
+After login choose **My Account** from the dropdown menu located top right corner.
+
+Click **Create New Key**
+
+Set name for the key, description is optional.
+
+Allowed IP addresses requires the IP address of your Bastion bot.
+You can get your IP address for example [from here](http://whatismyip.host/).
+Make sure to use IPv4.
+
+After that click **Create Key** and now you should have your API key.
+
+Copy the key and add it into the **credentials** file.
+
 ## Fortnite API Key
 
 !!! info ""
