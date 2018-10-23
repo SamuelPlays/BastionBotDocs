@@ -12,6 +12,73 @@ description: Read how to get the API keys that is required by Bastion to achieve
     to access. You are going to need these keys when you are configuring
     Bastion after the installation.
 
+
+## Battlefield API Key
+
+!!! info ""
+    Required by `battlefield1` and `battlefield4` commands.
+
+Go to [Battlefield Tracer Network Site](https://battlefieldtracker.com/site-api).
+
+Login/Register your account (Click Login/Register at the top right corner).
+After you've (registered and) logged in, click on **Generate API key**.
+
+Fill up the given form with your name, email, website (you can also use
+<https://bastionbot.org>) and description. After that click on
+**Generate API key**.
+
+Then you'll see your **API Key** under the Authentication section.
+
+## Battle.net API Key
+
+!!! info ""
+    Required by `wow` command.
+
+Visit the [Battle.net Developer Portal](https://dev.battle.net).
+
+Login/Register your account (Click Login/Register at the top right corner).
+After you've (registered and) logged in, click on **Get API Keys**.
+
+Fill in the form with your details. You don't need to worry about the callback
+URL, but make sure you select **World of Warcraft** in the franchises dropdown.
+The **basic plan** should be adequate. After that click on **Register Application**.
+
+Then you'll see your **API Key** under the Keys section.
+
+## Bungie API Key
+
+!!! info ""
+    Required by `destiny2` command.
+
+Go to [Bungie Applications](https://www.bungie.net/en/Application).
+
+Login/Register your account. After you've (registered and) logged in,
+click on **Create New App**.
+
+Fill up the given form with your name, website (you can also use
+<https://bastionbot.org>) and select the OAuth client type to *Not Applicable*.
+
+Then if you agree to their Terms of Use, click on **Create New App**.
+
+Then you'll see your **API Key** under the **API Keys** section.
+
+## Fortnite API Key
+
+!!! info ""
+    Required by `fortnite` command.
+
+Go to [Fortnite Tracer Network Site](https://fortnitetracker.com/site-api).
+
+Login/Register your account (Click Login/Register at the top right corner).
+After you've (registered and) logged in, click on **Generate API key**.
+
+Fill up the given form with your name, email, website (you can also use
+<https://bastionbot.org>) and description. After that click on
+**Generate API key**.
+
+Then you'll see your **API Key** under the Authentication section.
+
+
 ## Google API Key
 
 !!! info ""
@@ -48,6 +115,45 @@ Then click on **Generate token** button at the bottom to generate your new token
 Copy the new token and keep it somewhere safe, as you won't be able to see it
 again for security reasons.
 
+## HiRez API Key
+
+!!! info ""
+    Required by `paladins` and `smite` commands.
+
+Fill up the [Hi-Rez Developer Credentials Application Form](https://fs12.formsite.com/HiRez/form48/secure_index.html)
+with correct details. Then submit it.
+After HiRez Studios have verified you, they will mail you with your
+HiRez **DevId** & **AuthKey**.
+
+!!! note
+    It generally takes few hours for them you mail you, so you can proceed with
+    the installation, as you can add these to your `credentials.json` file
+    anytime later.
+
+## IGDB API Key
+
+!!! info ""
+    Required by `game` command.
+
+Visit the [IGDB API Plans page](https://api.igdb.com/pricing).
+
+Signup for the plan as per your requirements. The **Free** plan should be
+enough though.
+
+After you've successfully signed up, you'll see your API Key in the
+**credentials** section of the page.
+
+## Musixmatch API Key
+
+!!! info ""
+    Required by `lyrics` command.
+
+Visit [Musixmatch Developer site](https://developer.musixmatch.com/) and signup
+for a new accout (or signin if you already have one).
+
+When all the signup steps are completed, you'll get your Musixmatch API key.
+
+
 ## Patreon API Key
 
 !!! info ""
@@ -63,22 +169,6 @@ the bottom.
 Now that your client is registered, you'll see the required credentials listed
 under your client.
 
-## Bungie API Key
-
-!!! info ""
-    Required by `destiny2` command.
-
-Go to [Bungie Applications](https://www.bungie.net/en/Application).
-
-Login/Register your account. After you've (registered and) logged in,
-click on **Create New App**.
-
-Fill up the given form with your name, website (you can also use
-<https://bastionbot.org>) and select the OAuth client type to *Not Applicable*.
-
-Then if you agree to their Terms of Use, click on **Create New App**.
-
-Then you'll see your **API Key** under the **API Keys** section.
 
 ## PUBG API Key
 
@@ -96,60 +186,6 @@ etc.
 
 After you've registered a new application, you'll get your **API Key**.
 
-## Battlefield API Key
-
-!!! info ""
-    Required by `battlefield1` and `battlefield4` commands.
-
-Go to [Battlefield Tracer Network Site](https://battlefieldtracker.com/site-api).
-
-Login/Register your account (Click Login/Register at the top right corner).
-After you've (registered and) logged in, click on **Generate API key**.
-
-Fill up the given form with your name, email, website (you can also use
-<https://bastionbot.org>) and description. After that click on
-**Generate API key**.
-
-Then you'll see your **API Key** under the Authentication section.
-
-## Fortnite API Key
-
-!!! info ""
-    Required by `fortnite` command.
-
-Go to [Fortnite Tracer Network Site](https://fortnitetracker.com/site-api).
-
-Login/Register your account (Click Login/Register at the top right corner).
-After you've (registered and) logged in, click on **Generate API key**.
-
-Fill up the given form with your name, email, website (you can also use
-<https://bastionbot.org>) and description. After that click on
-**Generate API key**.
-
-Then you'll see your **API Key** under the Authentication section.
-
-## HiRez API Key
-
-!!! info ""
-    Required by `paladins` and `smite` commands.
-
-Fill up the [Hi-Rez Developer Credentials Application Form](https://fs12.formsite.com/HiRez/form48/secure_index.html)
-with correct details. Then submit it.
-After HiRez Studios have verified you, they will mail you with your
-HiRez **DevId** & **AuthKey**.
-
-!!! note
-    It generally takes few hours for them you mail you, so you can proceed with
-    the installation, as you can add these to your `credentials.json` file
-    anytime later.
-
-## Twitch API Key
-
-!!! info ""
-    Required by `streamers` and `twitch` commands.
-
-Read [this article](https://dev.twitch.tv/docs/authentication/#registration) on [How to get Twitch API Client ID & Client Secret](https://dev.twitch.tv/docs/authentication/#registration).
-
 ## Rocket League API Key
 
 !!! info ""
@@ -162,16 +198,6 @@ public Bastion bot can make use of the `rocketLeague` command. As soon as they
 allow public access to their API, you can request an API key and use the
 `rocketLeague` command in your self hosted Bastion.
 
-## Musixmatch API Key
-
-!!! info ""
-    Required by `lyrics` command.
-
-Visit [Musixmatch Developer site](https://developer.musixmatch.com/) and signup
-for a new accout (or signin if you already have one).
-
-When all the signup steps are completed, you'll get your Musixmatch API key.
-
 ## The Movie DB API Key
 
 !!! info ""
@@ -180,31 +206,10 @@ When all the signup steps are completed, you'll get your Musixmatch API key.
 Read [The Movie Database FAQ](https://www.themoviedb.org/faq/api) to know how
 to get their API Key.
 
-## IGDB API Key
+## Twitch API Key
 
 !!! info ""
-    Required by `game` command.
+    Required by `streamers` and `twitch` commands.
 
-Visit the [IGDB API Plans page](https://api.igdb.com/pricing).
+Read [this article](https://dev.twitch.tv/docs/authentication/#registration) on [How to get Twitch API Client ID & Client Secret](https://dev.twitch.tv/docs/authentication/#registration).
 
-Signup for the plan as per your requirements. The **Free** plan should be
-enough though.
-
-After you've successfully signed up, you'll see your API Key in the
-**credentials** section of the page.
-
-## Battle.net API Key
-
-!!! info ""
-    Required by `wow` command.
-
-Visit the [Battle.net Developer Portal](https://dev.battle.net).
-
-Login/Register your account (Click Login/Register at the top right corner).
-After you've (registered and) logged in, click on **Get API Keys**.
-
-Fill in the form with your details. You don't need to worry about the callback 
-URL, but make sure you select **World of Warcraft** in the franchises dropdown. 
-The **basic plan** should be adequate. After that click on **Register Application**.
-
-Then you'll see your **API Key** under the Keys section.
